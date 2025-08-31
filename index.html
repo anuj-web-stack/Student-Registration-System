@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- External JS  -->
+  <script defer src="script.js"></script>
+  <!-- 
+    Project: Student Registration System
+    GitHub Repo Link: https://github.com/anuj-web-stack/Student-Registration-System.git
+  -->
+</head>
+<body>
+  <header>
+    <h1>Student Registration System</h1>
+    <p class="tagline">Easily register, edit, and manage student records — all in one place.</p>
+    <p id="studentCount" class="student-count">Total Registered Students: 0</p>
+  </header>
+
+  <main>
+    <!-- Registration Form Section -->
+    <section class="form-section">
+      <h2>Register Student</h2>
+      <form id="studentForm">
+        <!-- Input fields with required validation -->
+        <input type="text" id="name" placeholder="Student Name" required>
+        <input type="number" id="studentId" placeholder="Student ID" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="contact" placeholder="Contact Number" required>
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <!-- Registered Students Table -->
+    <section class="display-section">
+      <h2>Registered Students</h2>
+      <div class="table-container">
+        <table id="studentTable">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Student ID</th>
+              <th>Email</th>
+              <th>Contact</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Student Records Will Be Rendered Here Dynamically -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
