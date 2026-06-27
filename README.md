@@ -8,6 +8,7 @@ The system uses **localStorage** to persist data even after page refresh.
  
   - ## Project: Student Registration System
   - GitHub Repo Link: https://github.com/anuj-web-stack/Student-Registration-System.git
+  - Live Demo link: https://anuj-web-stack.github.io/Student-Registration-System/ 
 
 ## Features
   - **Register New Students**
